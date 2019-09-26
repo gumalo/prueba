@@ -38,12 +38,20 @@ const App = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <View style={styles.body}>
+        </ScrollView>
+
+        <ScrollView>
+
+          <View>
+            <Text style={styles.estiloPrueba}>Hello world!</Text>
+            <Text style={styles.estiloPrueba}>o no...</Text>
+          </View>
+          {/* <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Los lunes son los nuevos miércoles</Text>
+              <Text style={styles.sectionTitle}>Primo passo</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                Modifica <Text style={styles.highlight}>App.js</Text> per cambiare questa schermata 
+                  e poi torna a vedere le tue modifiche.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -65,7 +73,7 @@ const App = () => {
               </Text>
             </View>
             <LearnMoreLinks />
-          </View>
+          </View> */}
         </ScrollView>
       </SafeAreaView>
     </Fragment>
@@ -108,6 +116,11 @@ const styles = StyleSheet.create({
     padding: 4,
     paddingRight: 12,
     textAlign: 'right',
+  },
+  estiloPrueba: {
+    color: '#ffff00',
+    fontSize: 48,
+    textAlign: 'center',
   },
 });
 
